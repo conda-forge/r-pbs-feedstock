@@ -16,7 +16,6 @@ build:
   noarch: generic
   merge_build_host: True  # [win]
   number: 3
-  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
@@ -36,7 +35,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=pbs
-  license: GPL-2
+  license: GPL-2.0-only
   summary: Periodic B Splines Basis
   license_family: GPL2
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
